@@ -4,7 +4,7 @@ html {
   width: 100%;
   height: 100%;
   box-sizing: border-box;
-  font-family: "Red Hat Display", sans-serif;
+  font-family: "IBM Plex Sans", sans-serif;
 }
 .pattern1-container {
   display: none;
@@ -20,16 +20,14 @@ html {
 .headerimg-desktop {
   display: none;
 }
-h1 {
-  position: absolute;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: normal;
-  font-size: 1.875rem;
-  margin-left: 0.5em;
-  z-index: -2;
+.eqlogoimg {
+  margin: 2.5em 0em 0em 1em;
+}
+.eqlogoimg2 {
+  margin: 2em 0em 0em 1.5em;
 }
 h2 {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2.5em;
@@ -40,7 +38,7 @@ h2 {
 }
 h3 {
   color: #fff;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 2rem;
@@ -49,11 +47,12 @@ h3 {
 }
 
 p {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
+  font-weight: 400;
   font-size: 1em;
   line-height: 26px;
-  margin: 2em 2.5em 0em 1.5em;
+  margin: 2em 3.5em 0em 1.5em;
 }
 .topcontent-container {
   position: absolute;
@@ -86,19 +85,21 @@ p {
   background-color: #fa7453;
   top: 68.5em;
   width: 24em;
-  padding: 4em 0em 0em 1em;
+  padding: 4em 0em 2em 1em;
   z-index: -2;
 }
 .eq-container p {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
   font-size: 18px;
   line-height: 28px;
-  margin: 2em 3em 0em 1em;
+  margin: 1em 3em 0em 1em;
   padding: 0em 0em 0em 0em;
 }
 .eq-container span {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 65px;
@@ -113,29 +114,31 @@ p {
 }
 .monthlycost h4 {
   color: #fff;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 65px;
   line-height: 52px;
-  margin: 0.75em 0.25em 0em 0em;
+  margin: 0.625em 0.25em 0em 0em;
 }
 .monthlycost p {
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: 400;
   color: #fff;
   font-size: 18px;
   line-height: 28px;
   margin: 0.75em 2em 0em 0em;
 }
 .appledownload-container {
-  margin: 2.5em 0em 2em 1.5em;
+  margin: 2.75em 0em 2em 1.5em;
 }
 .appledownload-container a {
   color: #fff;
   background-color: #191826;
   border-radius: 12px;
   padding: 1.125em 5.25em 1.125em 5em;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -155,7 +158,7 @@ p {
   border-radius: 12px;
   background-color: #ffffff;
   padding: 1.125em 4.25em 1.125em 4em;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -171,17 +174,12 @@ p {
   position: absolute;
   z-index: -2;
   top: 108em;
-  margin: 0em 2em 0em 0em;
+  margin: 0em 1.5em 0em 0em;
 }
-.bottomcontent-container h5 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-weight: normal;
-  font-size: 1.875rem;
-  margin: 1em 0em 0em 0.75em;
-}
+
 .bottomcontent-container p {
   color: #000;
-  font-family: IBM Plex Sans;
+  font-family: "IBM Plex Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -197,7 +195,7 @@ p {
   margin: 0em 0em 0em 1.5em;
   padding-bottom: 5em;
 }
-.socialmediaicons img {
+svg {
   padding-right: 1em;
 }
 @media only screen and (min-width: 768px) {
@@ -225,16 +223,14 @@ p {
     bottom: 10rem;
     z-index: -4;
   }
-  h1 {
-    position: absolute;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin-left: 1em;
-    z-index: -2;
+  .eqlogoimg {
+    margin: 2.5em 0em 0em 1em;
+  }
+  .eqlogoimg2 {
+    margin: 0em 0em 0em 2em;
   }
   h2 {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 4rem;
@@ -245,7 +241,7 @@ p {
   }
   h3 {
     color: #fff;
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 32px;
@@ -254,7 +250,7 @@ p {
   }
 
   p {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.125em;
@@ -276,7 +272,7 @@ p {
     background-color: #191826;
     top: 46.5em;
     margin-left: 2em;
-    padding: 0em 9.5em 12em 10em;
+    padding: 0em 9.5em 9.5em 10em;
     z-index: -2;
   }
   .pattern2 {
@@ -287,10 +283,13 @@ p {
     border-radius: 12px;
     background-color: #fa7453;
     top: 56em;
-    left: 15.25em;
+    left: 16.5em;
     width: 24em;
-    padding: 4em 0em 0em 1em;
+    padding: 4em 0em 1.75em 1em;
     z-index: 0;
+  }
+  .androiddownload-container {
+    margin: 2.75em 0em 2em 1.5em;
   }
   .bottomcontent-container {
     position: absolute;
@@ -298,15 +297,10 @@ p {
     top: 100em;
     margin: 0em 2em 0em 0em;
   }
-  .bottomcontent-container h5 {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin: 1em 0em 0em 1em;
-  }
+
   .bottomcontent-container p {
     color: #000;
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     margin-right: 19em;
@@ -319,13 +313,10 @@ p {
   .socialmediaicons {
     position: absolute;
     z-index: -2;
-    top: 108.5em;
+    top: 106em;
     left: 35em;
     margin: 0em 0em 0em 1.5em;
     padding-bottom: 10em;
-  }
-  .socialmediaicons img {
-    padding-right: 1em;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -352,16 +343,16 @@ p {
     bottom: 80rem;
     z-index: -3;
   }
-  h1 {
-    position: absolute;
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin-left: 5.5em;
-    z-index: -2;
+  .eqlogoimg {
+    margin: 2.5em 0em 0em 11em;
+  }
+  .eqlogoimg2 {
+    margin: 0em 0em 0em 11em;
+    width: 9.1875em;
+    height: 2.0625em;
   }
   h2 {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 5.5rem;
@@ -372,7 +363,7 @@ p {
   }
   h3 {
     color: #fff;
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 2.5rem;
@@ -381,7 +372,7 @@ p {
   }
 
   p {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 1.25em;
@@ -421,7 +412,7 @@ p {
     z-index: 0;
   }
   .eq-container p {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     color: #fff;
     font-size: 1.25rem;
     line-height: 34px;
@@ -436,7 +427,7 @@ p {
   }
   .monthlycost h4 {
     color: #fff;
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 65px;
@@ -444,7 +435,7 @@ p {
     margin: 1em 0.25em 0em 0em;
   }
   .monthlycost p {
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     color: #fff;
     font-size: 18px;
     line-height: 28px;
@@ -471,20 +462,15 @@ p {
     position: absolute;
     z-index: -2;
     top: 100em;
-    margin: 0em 45em 0em 0em;
+    margin: 5em 0em 0em 0em;
   }
-  .bottomcontent-container h5 {
-    font-family: "IBM Plex Sans", sans-serif;
-    font-weight: normal;
-    font-size: 2rem;
-    margin: 4em 0em 0em 5.5em;
-  }
+
   .bottomcontent-container p {
     color: #000;
-    font-family: IBM Plex Sans;
+    font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    margin: 8.5rem 19rem 0rem 10rem;
+    margin: 0rem 65rem 0rem 10rem;
     font-size: 1rem;
     line-height: 26px;
   }
@@ -494,15 +480,16 @@ p {
   .socialmediaicons {
     position: absolute;
     z-index: -2;
-    top: 110em;
-    left: 103em;
+    top: 106.5em;
+    left: 102em;
     margin: 0em 0em 0em 1.5em;
-    padding-bottom: 10em;
   }
-  .socialmediaicons img {
+
+  svg {
     padding-right: 1em;
+    fill: #191826;
   }
-  .socialmediaicons svg:hover {
-    color: #fa7453;
+  svg:hover {
+    fill: #fa7453;
   }
 }
