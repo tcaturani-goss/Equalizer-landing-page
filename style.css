@@ -128,14 +128,13 @@ p {
   margin: 0.75em 2em 0em 0em;
 }
 .appledownload-container {
-  color: #fff;
-  border-radius: 12px;
-  background-color: #191826;
-  margin: 2.5em 2.5em 0em 1.5em;
-  padding: 1em 1em 1em 1em;
+  margin: 2.5em 0em 2em 1.5em;
 }
 .appledownload-container a {
   color: #fff;
+  background-color: #191826;
+  border-radius: 12px;
+  padding: 1.125em 5.25em 1.125em 5em;
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: bold;
@@ -144,32 +143,29 @@ p {
   text-align: center;
   letter-spacing: -0.18px;
   text-decoration: none;
-  margin-left: 4.5em;
 }
 .applelogo {
   margin-right: 0.5em;
 }
-.androidlogo {
-  margin-right: 0.5em;
-}
 .androiddownload-container {
-  color: #fff;
-  border-radius: 12px;
-  background-color: #fff;
-  margin: 1em 2.5em 3em 1.5em;
-  padding: 1em 1em 1em 1em;
+  margin: 2.5em 0em 2em 1.5em;
 }
 .androiddownload-container a {
   color: #000;
+  border-radius: 12px;
+  background-color: #ffffff;
+  padding: 1.125em 4.25em 1.125em 4em;
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
   line-height: 32px;
-  text-align: center;
+  align-items: center;
   letter-spacing: -0.18px;
   text-decoration: none;
-  margin-left: 3.5em;
+}
+.androidlogo {
+  margin-right: 0.5em;
 }
 .bottomcontent-container {
   position: absolute;
@@ -455,13 +451,20 @@ p {
     margin: 0.75em 2em 0em 0em;
   }
   .appledownload-container {
-    color: #fff;
-    border-radius: 12px;
-    background-color: #191826;
-    margin: 4em 2.5em 0em 1.5em;
-    padding: 1em 1em 1em 1em;
+    margin-top: 4em;
   }
-
+  .appledownload-container a {
+    padding: 1.125em 6.5em 1.125em 6.5em;
+  }
+  .appledownload-container a:hover {
+    background-color: #66e2dc;
+  }
+  .androiddownload-container a:hover {
+    background-color: #ffb964;
+  }
+  .androiddownload-container a {
+    padding: 1.125em 5.5em 1.125em 5.5em;
+  }
   .bottomcontent-container {
     display: flex;
     flex-direction: row;
@@ -498,5 +501,8 @@ p {
   }
   .socialmediaicons img {
     padding-right: 1em;
+  }
+  .socialmediaicons svg:hover {
+    color: #fa7453;
   }
 }
