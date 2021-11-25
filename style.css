@@ -323,11 +323,14 @@ svg {
   .pattern1-container {
     display: block;
     position: absolute;
-    left: 103.25em;
-    bottom: 37em;
+    left: 78em;
+    bottom: 11.25em;
     z-index: -2;
   }
-
+  .pattern1 {
+    width: 312px;
+    height: 468px;
+  }
   .headerimg-mobile {
     display: none;
   }
@@ -337,28 +340,28 @@ svg {
   .headerimg-desktop {
     display: block;
     position: absolute;
-    width: 100%;
     top: 3rem;
-    right: 20em;
-    bottom: 80rem;
     z-index: -3;
   }
   .eqlogoimg {
-    margin: 2.5em 0em 0em 11em;
+    margin: 3.5em 0em 0em 11em;
   }
   .eqlogoimg2 {
     margin: 0em 0em 0em 11em;
     width: 9.1875em;
     height: 2.0625em;
   }
+  .topcontent-container {
+    margin-top: 3.75em;
+  }
   h2 {
     font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: bold;
     font-size: 5.5rem;
-    line-height: 88px;
+    line-height: 90px;
     letter-spacing: -0.454545px;
-    margin: 0em 8em 0em 2em;
+    margin: 0em 0.5em 0em 2em;
     top: 3.5em;
   }
   h3 {
@@ -377,12 +380,12 @@ svg {
     font-weight: normal;
     font-size: 1.25em;
     line-height: 34px;
-    margin: 2em 43em 0em 9em;
+    margin: 2em 15em 0em 9em;
   }
   .phonemockupimg {
     position: absolute;
-    top: 38em;
-    left: 21.5em;
+    top: 42em;
+    left: 19.5em;
   }
   .illustrationmockup {
     width: 16.875em;
@@ -392,9 +395,9 @@ svg {
     position: absolute;
     border-radius: 12px;
     background-color: #191826;
-    top: 50em;
+    top: 53.5em;
     margin-left: 11em;
-    padding: 0em 66em 12em 10em;
+    padding: 0em 42em 10.5em 10em;
     z-index: -2;
   }
   .pattern2 {
@@ -404,10 +407,10 @@ svg {
     position: absolute;
     border-radius: 12px;
     background-color: #fa7453;
-    top: 56em;
-    left: 70em;
+    top: 59em;
+    left: 48em;
     width: 27.875em;
-    height: 39.0625em;
+    height: 37.5em;
     padding: 4em 0em 0em 1em;
     z-index: 0;
   }
@@ -461,8 +464,7 @@ svg {
     flex-direction: row;
     position: absolute;
     z-index: -2;
-    top: 100em;
-    margin: 5em 0em 0em 0em;
+    top: 107em;
   }
 
   .bottomcontent-container p {
@@ -470,7 +472,7 @@ svg {
     font-family: "IBM Plex Sans", sans-serif;
     font-style: normal;
     font-weight: normal;
-    margin: 0rem 65rem 0rem 10rem;
+    margin: 0rem 30rem 0rem 10rem;
     font-size: 1rem;
     line-height: 26px;
   }
@@ -478,11 +480,16 @@ svg {
     font-weight: bold;
   }
   .socialmediaicons {
+    display: flex;
+    flex-direction: row;
     position: absolute;
+    top: 108.75em;
+    left: 78.5em;
     z-index: -2;
-    top: 106.5em;
-    left: 102em;
-    margin: 0em 0em 0em 1.5em;
+  }
+  .socialmediaicons svg {
+    padding-right: 0em;
+    margin-right: 1.5em;
   }
 
   svg {
@@ -493,3 +500,177 @@ svg {
     fill: #fa7453;
   }
 }
+
+/* Large Screen Desktop Media Query */
+/*.pattern1-container {
+  display: block;
+  position: absolute;
+  left: 103.25em;
+  bottom: 37em;
+  z-index: -2;
+}
+
+.headerimg-mobile {
+  display: none;
+}
+.headerimg-tablet {
+  display: none;
+}
+.headerimg-desktop {
+  display: block;
+  position: absolute;
+  width: 100%;
+  top: 3rem;
+  right: 20em;
+  bottom: 80rem;
+  z-index: -3;
+}
+.eqlogoimg {
+  margin: 2.5em 0em 0em 11em;
+}
+.eqlogoimg2 {
+  margin: 0em 0em 0em 11em;
+  width: 9.1875em;
+  height: 2.0625em;
+}
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 5.5rem;
+  line-height: 88px;
+  letter-spacing: -0.454545px;
+  margin: 0em 8em 0em 2em;
+  top: 3.5em;
+}
+h3 {
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 2.5rem;
+  line-height: 40px;
+  margin: 0em 0em 0em 0.5em;
+}
+
+p {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.25em;
+  line-height: 34px;
+  margin: 2em 43em 0em 9em;
+}
+.phonemockupimg {
+  position: absolute;
+  top: 38em;
+  left: 21.5em;
+}
+.illustrationmockup {
+  width: 16.875em;
+  height: 34.75em;
+}
+.pattern2-container {
+  position: absolute;
+  border-radius: 12px;
+  background-color: #191826;
+  top: 50em;
+  margin-left: 11em;
+  padding: 0em 66em 12em 10em;
+  z-index: -2;
+}
+.pattern2 {
+  margin: 0em 2em 0em 2em;
+}
+.eq-container {
+  position: absolute;
+  border-radius: 12px;
+  background-color: #fa7453;
+  top: 56em;
+  left: 70em;
+  width: 27.875em;
+  height: 39.0625em;
+  padding: 4em 0em 0em 1em;
+  z-index: 0;
+}
+.eq-container p {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 34px;
+  margin: 2em 4em 0em 1em;
+  padding: 0em 0em 0em 0em;
+}
+.monthlycost {
+  display: flex;
+  flex-direction: row;
+  margin: 0em 0em 0em 1.5em;
+  padding: 0em 0em 0em 0em;
+}
+.monthlycost h4 {
+  color: #fff;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 65px;
+  line-height: 52px;
+  margin: 1em 0.25em 0em 0em;
+}
+.monthlycost p {
+  font-family: "IBM Plex Sans", sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0.75em 2em 0em 0em;
+}
+.appledownload-container {
+  margin-top: 4em;
+}
+.appledownload-container a {
+  padding: 1.125em 6.5em 1.125em 6.5em;
+}
+.appledownload-container a:hover {
+  background-color: #66e2dc;
+}
+.androiddownload-container a:hover {
+  background-color: #ffb964;
+}
+.androiddownload-container a {
+  padding: 1.125em 5.5em 1.125em 5.5em;
+}
+.bottomcontent-container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  z-index: -2;
+  top: 100em;
+  margin: 5em 0em 0em 0em;
+}
+
+.bottomcontent-container p {
+  color: #000;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  margin: 0rem 65rem 0rem 10rem;
+  font-size: 1rem;
+  line-height: 26px;
+}
+.bottomcontent-container span {
+  font-weight: bold;
+}
+.socialmediaicons {
+  position: absolute;
+  z-index: -2;
+  top: 106.5em;
+  left: 102em;
+  margin: 0em 0em 0em 1.5em;
+}
+
+svg {
+  padding-right: 1em;
+  fill: #191826;
+}
+svg:hover {
+  fill: #fa7453;
+} */
